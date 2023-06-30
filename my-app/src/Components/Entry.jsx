@@ -1,8 +1,10 @@
 import placeholderImageSquare from '../Images/placeholder-image-square.jpg';
+import { useEffect } from 'react';
+import { useState } from 'react';
 
 export default function Entry() {
   return (
-    <div class="container hidden" data-view="entry-form">
+    <div class="container" data-view="entry-form">
       <div class="row">
         <div class="column-full d-flex justify-between">
           <h1 id="formH1">New Entry</h1>
