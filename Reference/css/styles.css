@@ -75,3 +75,12 @@
   border: none;
   font-size: 1.3rem;
 }
+
+/* Reset */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
