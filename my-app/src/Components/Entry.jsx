@@ -1,10 +1,8 @@
 import placeholderImageSquare from '../Images/placeholder-image-square.jpg';
 import { useEffect, useState } from 'react';
-import { v4 as uuidv4 } from 'uuid';
 
 export default function Entry() {
   const [formData, setFormData] = useState({
-    uuid: uuidv4(),
     title: '',
     photoURL: '',
     notes: '',
